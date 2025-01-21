@@ -4,17 +4,7 @@ services:
   dataapi:
     build:
       context: .
-      dockerfile: Dockerfile
     container_name: dataapi
     command: python app.py
     ports:
       - "80:80"
-    environment:
-      - NAME=World
-    volumes:
-      - .:/DataAPI
-    networks:
-      - app-network
-
-networks:
-  app-network:
