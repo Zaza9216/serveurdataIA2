@@ -6,6 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: dataapi
+    command: python app.py
     ports:
       - "80:80"
     environment:
