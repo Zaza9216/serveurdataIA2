@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "serveurdataIA2",
+			"path": "."
+		},
+		{
+			"name": "templates",
+			"path": "../../../PycharmProjects/flask/templates"
+		}
+	],
+	"settings": {}
+}
